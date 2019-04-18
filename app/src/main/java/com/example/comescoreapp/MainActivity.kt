@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val publisherConfig = PublisherConfiguration.Builder()
             .publisherId(PUBLISHER_ID)
             .publisherSecret(SECRET)
-            .secureTransmission(false)
+            .secureTransmission(true)
             .build()
 
         Analytics.getConfiguration().apply {
