@@ -27,8 +27,6 @@ android {
     }
 }
 
-
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -38,5 +36,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.comscore:android-analytics:5.6.0'
+    implementation 'com.comscore:android-analytics:5.7.2'
+    implementation 'com.snowplowanalytics:snowplow-android-tracker:1.0.1'
 }

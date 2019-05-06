@@ -15,6 +15,7 @@ private const val PUBLISHER_ID = "11464450"
 private const val SECRET = "f6b0b5064016a7d3ee6bc3ef3303fb5c"
 private const val COMSCORE_NB_IDFA_VALUE =  "COMSCORE_NB_IDFA"
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
